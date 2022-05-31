@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Colour Stock</title>
+  <meta name="description" content="Warwick Tech Crew's lighting stock
+">
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+  <link rel="stylesheet" href="/css/main.css?cachebust=202205312239">
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png">
+  <link rel="canonical" href="/gels/">
+  <script type="text/javascript" src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+</head>
+
+  <body>
+    <div class="nav-bar">
+  <div class="wrapper">
+    <div class="nav-button">
+      <a href="/" title="Back"><i class="ion-ios-arrow-back"></i></a>
+    </div>
+    <div class="nav-spacer"></div>
+    <div id="gel-sort-numeric" class="nav-button gel-sort-numeric active">
+      <i class="ion-pound"></i>
+    </div>
+    <div id="gel-sort-hue" class="nav-button gel-sort-hue">
+      <i class="ion-ios-color-filter"></i>
+    </div>
+    <div class="nav-spacer"></div>
+    <div class="nav-search">
+      <input id="q" type="text" placeholder="search" />
+    </div>
+  </div>
+</div>
+
+<div class="wrapper">
+
+<div class="gels">
+  <ul id="gels-list" class="gels-list">
+    
+    <li
+      data-gel-code="n"
+      data-gel-color=""
+      data-gel-name=""
+      data-gel-description=""
+    >
+      <div class="gel-item gel-n">
+        <div class="gel-swatch gel-swatch-n">
+          <div class="gel-swatch-code">n</div>
+        </div>
+        <h2></h2>
+        <p></p>
+      </div>
+    </li>
+    
+  </ul>
+</div>
+
+</div>
+
+<script type="text/template" id="gel-template">
+  <li>
+    <div class="gel-item gel-<%= gel.code %>">
+      <div class="gel-swatch gel-swatch-<%= gel.code %>">
+        <div class="gel-swatch-code"><%= gel.code %></div>
+      </div>
+      <h2><%= gel.name %></h2>
+      <p><%= gel.description %></p>
+    </div>
+  </li>
+</script>
+
+<script type="text/javascript" src="/js/gels.js?cachebust=202205312239"></script>
+
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    &copy; 2019 Will Pimblett, source avaliable on <a href="https://github.com/newtheatre/lx">GitHub</a>.
+  </div>
+
+</footer>
+
+  </body>
+</html>
