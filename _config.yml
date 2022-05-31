@@ -3,7 +3,7 @@ title: TCLX
 email: web@warwicktechcrew.co.uk
 description: >
   Warwick Tech Crew's lighting stock
-
+baseurl: "/lx-catalogue"
 # Build settings
 markdown: kramdown
 
