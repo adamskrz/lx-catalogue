@@ -1,4 +1,6 @@
-# New Theatre Lighting Stock Catalogue
+# Tech Crew Lighting Stock Catalogue
+
+Based on [newtheatre/lx](https://github.com/newtheatre/lx)
 
 [Jekyll](http://jekyllrb.com/) based site to catalogue theatrical lanterns, colour filters and gobos. Built as a replacement for [gel-view](https://github.com/wjdp/gel-view/).
 
@@ -35,5 +37,5 @@ This project is designed to be hosted using [GitHub Pages](https://pages.github.
 
 1. Fork the repository.
 2. Modify (or delete) `CNAME`, this specifies what host to serve the pages at - see the [Pages documentation](https://help.github.com/articles/adding-a-cname-file-to-your-repository/) for more information.
-3. Modify the `_config.yml` changing New Theatre specific values to that of your venue.
+3. Modify the `_config.yml` changing Tech Crew specific values to that of your venue.
 4. Modify the data files - see the editing section.
