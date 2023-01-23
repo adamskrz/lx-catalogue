@@ -74,7 +74,7 @@
     var gel_template;
     $(GEL_ELEMENTS).each(function() {
       var b, g, gel, gel_color, r;
-      gel_color = String(parseInt($(this).data(GEL_DATA_COLOR)));
+      gel_color = String($(this).data(GEL_DATA_COLOR));
       r = parseInt(gel_color.slice(0, 2), 16);
       g = parseInt(gel_color.slice(2, 4), 16);
       b = parseInt(gel_color.slice(4, 6), 16);
