@@ -8,5 +8,8 @@ baseurl: "/lx-catalogue"
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
  - jekyll-coffeescript
+
+whitelist:
+  - jekyll-coffeescript
