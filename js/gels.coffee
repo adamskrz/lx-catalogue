@@ -63,15 +63,16 @@ $(document).ready ->
   # Parse DOM and extract gels
   $(GEL_ELEMENTS).each ->
     # slice RGB values and convert from hex to dec
-    r = parseInt($(@).data(GEL_DATA_COLOR).slice(0,2), 16)
-    g = parseInt($(@).data(GEL_DATA_COLOR).slice(2,4), 16)
-    b = parseInt($(@).data(GEL_DATA_COLOR).slice(4,6), 16)
+    gel_color = String(parseInt($(@).data(GEL_DATA_COLOR)))
+    r = parseInt(gel_color.slice(0,2), 16)
+    g = parseInt(gel_color.slice(2,4), 16)
+    b = parseInt(gel_color.slice(4,6), 16)
 
     # build gel object and push to array
     gel = {
       sort: $(@).data(GEL_DATA_CODE).slice(1),
       code: $(@).data(GEL_DATA_CODE),
-      color: $(@).data(GEL_DATA_COLOR),
+      color: gel_color,
       hue: rgb2hue(r,g,b),
       name: $(@).data(GEL_DATA_NAME),
       description: $(@).data(GEL_DATA_DESCRIPTION),
