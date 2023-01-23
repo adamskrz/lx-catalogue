@@ -1,11 +1,3 @@
-- code: n
-  color: null
-  description: null
-  name: null
-  stock:
-    cut: none
-    sheet: 0
-
 - code: L201
   color: C3E1FA
   description: Converts tungsten (3200K) to photographic daylight (5700K).
@@ -39,6 +31,9 @@
     sheet: 2
 
 - code: L189
+  color: EFECD9
+  description: A cool highlight leaning towards yellow-green; good for use on mid range skin tones, avoid use on very dark and very pale skin tones.
+  name: Cosmetic Silver Moss
   stock:
     cut: none
     sheet: 1
@@ -140,6 +135,9 @@
     sheet: 1
 
 - code: L720
+  color: C3E1FB
+  description: Smoothes PAR or flood washes of large areas. Useful for houselight and good for entrances from natural light.
+  name: Durham Daylight Frost
   stock:
     cut: none
     sheet: 1
@@ -313,7 +311,7 @@
     sheet: 1
 
 - code: L741
-  color: '826400'
+  color: "826400"
   description: Spooky when used in haze. Removes some red and blue. Works best with daylight bulbs. Sodium lamp effect.
   name: Mustard Yellow
   stock:
@@ -337,6 +335,9 @@
     sheet: 1
 
 - code: L225
+  color: D5D6D8
+  description: Used for soft light effects with the addition of 0.6 Neutral Density.
+  name: Neutral Density Frost
   stock:
     cut: none
     sheet: 1
@@ -518,6 +519,9 @@
     sheet: 1
 
 - code: L255
+  color: FFFFFF
+  description: A light frost effect that softens edges.
+  name: Hollywood Frost
   stock:
     cut: none
     sheet: 3
@@ -547,6 +551,9 @@
     sheet: 1
 
 - code: L717
+  color: C3E1FB
+  description: 201 with frost to soften the beam of profile units
+  name: Shanklin Frost
   stock:
     cut: none
     sheet: 1
@@ -776,6 +783,9 @@
     sheet: 1
 
 - code: L250
+  color: F6F7F8
+  description: A medium diffusion used for soft light effects. Manufactured on a tough Polyester base in a range of seven strengths.
+  name: Half White Diffusion
   stock:
     cut: none
     sheet: 1
