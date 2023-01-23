@@ -150,4 +150,562 @@ html, body { background: #111; box-sizing: border-box; font-family: "Open Sans",
 
 .gobo-stock-list dd { margin-left: 0; background: #4d6178; }
 
+.gel-L201 { background: #d8e5f0; }
+
+.gel-swatch-L201 { background: #C3E1FA; }
+
+.gel-swatch-L201 .gel-swatch-code { color: #1e8fec; }
+
+.gel-L714 { background: #a8c1de; }
+
+.gel-swatch-L714 { background: #5A91D2; }
+
+.gel-swatch-L714 .gel-swatch-code { color: #1a3a5f; }
+
+.gel-L504 { background: #deeee3; }
+
+.gel-swatch-L504 { background: #D2F5DC; }
+
+.gel-swatch-L504 .gel-swatch-code { color: #40d56a; }
+
+.gel-L119 { background: #80b6da; }
+
+.gel-swatch-L119 { background: #0078C8; }
+
+.gel-swatch-L119 .gel-swatch-code { color: #000d16; }
+
+.gel-L194 { background: #d5bfec; }
+
+.gel-swatch-L194 { background: #BE8CF0; }
+
+.gel-swatch-L194 .gel-swatch-code { color: #6517b2; }
+
+.gel-L165 { background: #a8daea; }
+
+.gel-swatch-L165 { background: #5AC8EB; }
+
+.gel-swatch-L165 .gel-swatch-code { color: #106783; }
+
+.gel-L181 { background: #a480cc; }
+
+.gel-swatch-L181 { background: #5000AA; }
+
+.gel-swatch-L181 .gel-swatch-code { color: black; }
+
+.gel-L711 { background: #ccd5e3; }
+
+.gel-swatch-L711 { background: #AABEDC; }
+
+.gel-swatch-L711 .gel-swatch-code { color: #3e6196; }
+
+.gel-L161 { background: #b8deee; }
+
+.gel-swatch-L161 { background: #7DD2F5; }
+
+.gel-swatch-L161 .gel-swatch-code { color: #0e82b2; }
+
+.gel-L090 { background: #80d580; }
+
+.gel-swatch-L090 { background: #00BE00; }
+
+.gel-swatch-L090 .gel-swatch-code { color: #000c00; }
+
+.gel-L353 { background: #abe8e6; }
+
+.gel-swatch-L353 { background: #61E8E3; }
+
+.gel-swatch-L353 .gel-swatch-code { color: #13837f; }
+
+.gel-L780 { background: #f3b280; }
+
+.gel-swatch-L780 { background: #FF6F00; }
+
+.gel-swatch-L780 .gel-swatch-code { color: #4d2100; }
+
+.gel-L158 { background: #f3bd80; }
+
+.gel-swatch-L158 { background: #FF8700; }
+
+.gel-swatch-L158 .gel-swatch-code { color: #4d2900; }
+
+.gel-L068 { background: #9fd1ec; }
+
+.gel-swatch-L068 { background: #46B4F0; }
+
+.gel-swatch-L068 .gel-swatch-code { color: #0a527a; }
+
+.gel-L120 { background: #80abd5; }
+
+.gel-swatch-L120 { background: #005FBE; }
+
+.gel-swatch-L120 .gel-swatch-code { color: #00060c; }
+
+.gel-L058 { background: #d1b1ec; }
+
+.gel-swatch-L058 { background: #B46EF0; }
+
+.gel-swatch-L058 .gel-swatch-code { color: #5b109b; }
+
+.gel-L352 { background: #a8dae5; }
+
+.gel-swatch-L352 { background: #5AC8E1; }
+
+.gel-swatch-L352 .gel-swatch-code { color: #156274; }
+
+.gel-L281 { background: #dce7f0; }
+
+.gel-swatch-L281 { background: #CDE6FA; }
+
+.gel-swatch-L281 .gel-swatch-code { color: #2b95ea; }
+
+.gel-L100 { background: #eef380; }
+
+.gel-swatch-L100 { background: #F5FF00; }
+
+.gel-swatch-L100 .gel-swatch-code { color: #4a4d00; }
+
+.gel-L603 { background: #dadcdc; }
+
+.gel-swatch-L603 { background: #c8cdcd; }
+
+.gel-swatch-L603 .gel-swatch-code { color: #6c7777; }
+
+.gel-L777 { background: #eeba80; }
+
+.gel-swatch-L777 { background: #F58200; }
+
+.gel-swatch-L777 .gel-swatch-code { color: #432300; }
+
+.gel-L744 { background: #efdaba; }
+
+.gel-swatch-L744 { background: #F8C882; }
+
+.gel-swatch-L744 .gel-swatch-code { color: #bd740b; }
+
+.gel-L132 { background: #80c8e3; }
+
+.gel-swatch-L132 { background: #00A0DC; }
+
+.gel-swatch-L132 .gel-swatch-code { color: #001e2a; }
+
+.gel-L049 { background: #d580c1; }
+
+.gel-swatch-L049 { background: #BE0091; }
+
+.gel-swatch-L049 .gel-swatch-code { color: #0c0009; }
+
+.gel-L725 { background: #d5eded; }
+
+.gel-swatch-L725 { background: #BEF2F3; }
+
+.gel-swatch-L725 .gel-swatch-code { color: #28d4d7; }
+
+.gel-L017 { background: #e7bfad; }
+
+.gel-swatch-L017 { background: #E68C64; }
+
+.gel-swatch-L017 .gel-swatch-code { color: #823715; }
+
+.gel-L026 { background: #e7809b; }
+
+.gel-swatch-L026 { background: #E6003C; }
+
+.gel-swatch-L026 .gel-swatch-code { color: #34000d; }
+
+.gel-L748 { background: #e9aebc; }
+
+.gel-swatch-L748 { background: #E96785; }
+
+.gel-swatch-L748 .gel-swatch-code { color: #8a142f; }
+
+.gel-L157 { background: #f3c1c9; }
+
+.gel-swatch-L157 { background: #FF92A3; }
+
+.gel-swatch-L157 .gel-swatch-code { color: #df0023; }
+
+.gel-L182 { background: #ee8080; }
+
+.gel-swatch-L182 { background: #F50000; }
+
+.gel-swatch-L182 .gel-swatch-code { color: #430000; }
+
+.gel-L505 { background: #e6f3a8; }
+
+.gel-swatch-L505 { background: #E3FF5A; }
+
+.gel-swatch-L505 .gel-swatch-code { color: #8aa700; }
+
+.gel-L024 { background: #f3a8ad; }
+
+.gel-swatch-L024 { background: #FF5A64; }
+
+.gel-swatch-L024 .gel-swatch-code { color: #a7000a; }
+
+.gel-L208 { background: #e7caa4; }
+
+.gel-swatch-L208 { background: #E6A550; }
+
+.gel-swatch-L208 .gel-swatch-code { color: #734810; }
+
+.gel-L323 { background: #80e5cc; }
+
+.gel-swatch-L323 { background: #00E1AA; }
+
+.gel-swatch-L323 .gel-swatch-code { color: #002f23; }
+
+.gel-L108 { background: #f1d5cc; }
+
+.gel-swatch-L108 { background: #FCBEA9; }
+
+.gel-swatch-L108 .gel-swatch-code { color: #ea4108; }
+
+.gel-L029 { background: #e5809b; }
+
+.gel-swatch-L029 { background: #E1003C; }
+
+.gel-swatch-L029 .gel-swatch-code { color: #2f000c; }
+
+.gel-L156 { background: #e5d1bf; }
+
+.gel-swatch-L156 { background: #E1B48C; }
+
+.gel-swatch-L156 .gel-swatch-code { color: #945a27; }
+
+.gel-L741 { background: #baad80; }
+
+.gel-swatch-L741 { background: #826400; }
+
+.gel-swatch-L741 .gel-swatch-code { color: black; }
+
+.gel-L113 { background: #f380ad; }
+
+.gel-swatch-L113 { background: #FF0064; }
+
+.gel-swatch-L113 .gel-swatch-code { color: #4d001e; }
+
+.gel-L602 { background: #cacacc; }
+
+.gel-swatch-L602 { background: #a5a5aa; }
+
+.gel-swatch-L602 .gel-swatch-code { color: #4c4c50; }
+
+.gel-L008 { background: #f1c6b9; }
+
+.gel-swatch-L008 { background: #FC9B80; }
+
+.gel-swatch-L008 .gel-swatch-code { color: #c52f05; }
+
+.gel-L183 { background: #80e1e6; }
+
+.gel-swatch-L183 { background: #00D7E3; }
+
+.gel-swatch-L183 .gel-swatch-code { color: #002e31; }
+
+.gel-L508 { background: #a89fd8; }
+
+.gel-swatch-L508 { background: #5A46C3; }
+
+.gel-swatch-L508 .gel-swatch-code { color: #1c1541; }
+
+.gel-L079 { background: #9bbfde; }
+
+.gel-swatch-L079 { background: #3C8CD2; }
+
+.gel-swatch-L079 .gel-swatch-code { color: #11304a; }
+
+.gel-L206 { background: #f1e9e0; }
+
+.gel-swatch-L206 { background: #FCEAD6; }
+
+.gel-swatch-L206 .gel-swatch-code { color: #f09530; }
+
+.gel-L327 { background: #80bfa4; }
+
+.gel-swatch-L327 { background: #008C50; }
+
+.gel-swatch-L327 .gel-swatch-code { color: black; }
+
+.gel-L013 { background: #f1e1c6; }
+
+.gel-swatch-L013 { background: #FCD89B; }
+
+.gel-swatch-L013 .gel-swatch-code { color: #de8e07; }
+
+.gel-L764 { background: #f1e7d1; }
+
+.gel-swatch-L764 { background: #FCE6B4; }
+
+.gel-swatch-L764 .gel-swatch-code { color: #f4ac0a; }
+
+.gel-L716 { background: #80adde; }
+
+.gel-swatch-L716 { background: #0064D2; }
+
+.gel-swatch-L716 .gel-swatch-code { color: #000f20; }
+
+.gel-L710 { background: #bfc8ec; }
+
+.gel-swatch-L710 { background: #8CA0F0; }
+
+.gel-swatch-L710 .gel-swatch-code { color: #1736b2; }
+
+.gel-L746 { background: #b19b80; }
+
+.gel-swatch-L746 { background: #6E3C00; }
+
+.gel-swatch-L746 .gel-swatch-code { color: black; }
+
+.gel-L137 { background: #dad1e7; }
+
+.gel-swatch-L137 { background: #C8B4E6; }
+
+.gel-swatch-L137 .gel-swatch-code { color: #683aae; }
+
+.gel-L116 { background: #80dad3; }
+
+.gel-swatch-L116 { background: #00C8B9; }
+
+.gel-swatch-L116 .gel-swatch-code { color: #001614; }
+
+.gel-L779 { background: #f1c4bc; }
+
+.gel-swatch-L779 { background: #FC9885; }
+
+.gel-swatch-L779 .gel-swatch-code { color: #ca2405; }
+
+.gel-L139 { background: #a2d880; }
+
+.gel-swatch-L139 { background: #4BC300; }
+
+.gel-swatch-L139 .gel-swatch-code { color: #061100; }
+
+.gel-L700 { background: #b880dc; }
+
+.gel-swatch-L700 { background: #7D00CD; }
+
+.gel-swatch-L700 .gel-swatch-code { color: #10001b; }
+
+.gel-L366 { background: #ccdeec; }
+
+.gel-swatch-L366 { background: #AAD2F0; }
+
+.gel-swatch-L366 .gel-swatch-code { color: #237fc5; }
+
+.gel-L500 { background: #d1def3; }
+
+.gel-swatch-L500 { background: #B4D2FF; }
+
+.gel-swatch-L500 .gel-swatch-code { color: #0267ff; }
+
+.gel-L789 { background: #cc9b96; }
+
+.gel-swatch-L789 { background: #AA3C32; }
+
+.gel-swatch-L789 .gel-swatch-code { color: #200b09; }
+
+.gel-L127 { background: #e5acb4; }
+
+.gel-swatch-L127 { background: #E16273; }
+
+.gel-swatch-L127 .gel-swatch-code { color: #791724; }
+
+.gel-L730 { background: #e3f3e7; }
+
+.gel-swatch-L730 { background: #DCFFE6; }
+
+.gel-swatch-L730 .gel-swatch-code { color: #2aff67; }
+
+.gel-L172 { background: #80e3e3; }
+
+.gel-swatch-L172 { background: #00DCDC; }
+
+.gel-swatch-L172 .gel-swatch-code { color: #002a2a; }
+
+.gel-L723 { background: #a4bae3; }
+
+.gel-swatch-L723 { background: #5082DC; }
+
+.gel-swatch-L723 .gel-swatch-code { color: #143165; }
+
+.gel-L176 { background: #f3ccc8; }
+
+.gel-swatch-L176 { background: #FFAAA0; }
+
+.gel-swatch-L176 .gel-swatch-code { color: #ed1900; }
+
+.gel-L136 { background: #ecd5e7; }
+
+.gel-swatch-L136 { background: #F0BEE6; }
+
+.gel-swatch-L136 .gel-swatch-code { color: #cc2fad; }
+
+.gel-L442 { background: #f1e3ce; }
+
+.gel-swatch-L442 { background: #FCDCAD; }
+
+.gel-swatch-L442 .gel-swatch-code { color: #ee9109; }
+
+.gel-L170 { background: #e7cce3; }
+
+.gel-swatch-L170 { background: #E6AADC; }
+
+.gel-swatch-L170 .gel-swatch-code { color: #ab3297; }
+
+.gel-L192 { background: #f3bfd1; }
+
+.gel-swatch-L192 { background: #FF8CB4; }
+
+.gel-swatch-L192 .gel-swatch-code { color: #d9004b; }
+
+.gel-L147 { background: #f1d3bf; }
+
+.gel-swatch-L147 { background: #FCB98C; }
+
+.gel-swatch-L147 .gel-swatch-code { color: #d05705; }
+
+.gel-L101 { background: #f3ee80; }
+
+.gel-swatch-L101 { background: #FFF500; }
+
+.gel-swatch-L101 .gel-swatch-code { color: #4d4a00; }
+
+.gel-L134 { background: #f0cbb4; }
+
+.gel-swatch-L134 { background: #FAA873; }
+
+.gel-swatch-L134 .gel-swatch-code { color: #b44b06; }
+
+.gel-L102 { background: #f3e3ab; }
+
+.gel-swatch-L102 { background: #FFDC5F; }
+
+.gel-swatch-L102 .gel-swatch-code { color: #ac8600; }
+
+.gel-L286 { background: #f3d1ad; }
+
+.gel-swatch-L286 { background: #FFB464; }
+
+.gel-swatch-L286 .gel-swatch-code { color: #b15b00; }
+
+.gel-L118 { background: #80e5ea; }
+
+.gel-swatch-L118 { background: #00E1EB; }
+
+.gel-swatch-L118 .gel-swatch-code { color: #003639; }
+
+.gel-L117 { background: #d1f0ee; }
+
+.gel-swatch-L117 { background: #B4FAF5; }
+
+.gel-swatch-L117 .gel-swatch-code { color: #10ecdc; }
+
+.gel-L180 { background: #c8ade7; }
+
+.gel-swatch-L180 { background: #A064E6; }
+
+.gel-swatch-L180 .gel-swatch-code { color: #481582; }
+
+.gel-L797 { background: #cf80c3; }
+
+.gel-swatch-L797 { background: #AF0096; }
+
+.gel-swatch-L797 .gel-swatch-code { color: black; }
+
+.gel-L152 { background: #f3ded7; }
+
+.gel-swatch-L152 { background: #FFD2C1; }
+
+.gel-swatch-L152 .gel-swatch-code { color: #ff500f; }
+
+.gel-L736 { background: #80cc80; }
+
+.gel-swatch-L736 { background: #00AA00; }
+
+.gel-swatch-L736 .gel-swatch-code { color: black; }
+
+.gel-L287 { background: #f3c8a6; }
+
+.gel-swatch-L287 { background: #FFA055; }
+
+.gel-swatch-L287 .gel-swatch-code { color: #a24700; }
+
+.gel-L135 { background: #f3ab80; }
+
+.gel-swatch-L135 { background: #FF5F00; }
+
+.gel-swatch-L135 .gel-swatch-code { color: #4d1d00; }
+
+.gel-L787 { background: #d3809b; }
+
+.gel-swatch-L787 { background: #B9003C; }
+
+.gel-swatch-L787 .gel-swatch-code { color: #070002; }
+
+.gel-L763 { background: #f1ecde; }
+
+.gel-swatch-L763 { background: #FCF0D2; }
+
+.gel-swatch-L763 .gel-swatch-code { color: #f1b82b; }
+
+.gel-L015 { background: #f3dc80; }
+
+.gel-swatch-L015 { background: #FFCD00; }
+
+.gel-swatch-L015 .gel-swatch-code { color: #4d3e00; }
+
+.gel-L106 { background: #ec8096; }
+
+.gel-swatch-L106 { background: #F00032; }
+
+.gel-swatch-L106 .gel-swatch-code { color: #3e000d; }
+
+.gel-L115 { background: #80eada; }
+
+.gel-swatch-L115 { background: #00EBC8; }
+
+.gel-swatch-L115 .gel-swatch-code { color: #003930; }
+
+.gel-L708 { background: #e3eaf0; }
+
+.gel-swatch-L708 { background: #DCEBFA; }
+
+.gel-swatch-L708 .gel-swatch-code { color: #4092e4; }
+
+.gel-L742 { background: #e5c6a4; }
+
+.gel-swatch-L742 { background: #E19B50; }
+
+.gel-swatch-L742 .gel-swatch-code { color: #6c4113; }
+
+.gel-L765 { background: #f3e7c1; }
+
+.gel-swatch-L765 { background: #FFE591; }
+
+.gel-swatch-L765 .gel-swatch-code { color: #dea900; }
+
+.gel-L653 { background: #c3a680; }
+
+.gel-swatch-L653 { background: #965500; }
+
+.gel-swatch-L653 .gel-swatch-code { color: black; }
+
+.gel-L128 { background: #f3a4d1; }
+
+.gel-swatch-L128 { background: #FF50B4; }
+
+.gel-swatch-L128 .gel-swatch-code { color: #9d0059; }
+
+.gel-L124 { background: #80e3b6; }
+
+.gel-swatch-L124 { background: #00DC78; }
+
+.gel-swatch-L124 .gel-swatch-code { color: #002a17; }
+
+.gel-L004 { background: #f3dad1; }
+
+.gel-swatch-L004 { background: #FFC8B4; }
+
+.gel-swatch-L004 .gel-swatch-code { color: #ff4502; }
+
 /*# sourceMappingURL=main.css.map */
