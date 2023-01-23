@@ -174,6 +174,12 @@ html, body { background: #111; box-sizing: border-box; font-family: "Open Sans",
 
 .gel-swatch-L119 .gel-swatch-code { color: #000d16; }
 
+.gel-L189 { background: #ebeae1; }
+
+.gel-swatch-L189 { background: #EFECD9; }
+
+.gel-swatch-L189 .gel-swatch-code { color: #baad5b; }
+
 .gel-L194 { background: #d5bfec; }
 
 .gel-swatch-L194 { background: #BE8CF0; }
@@ -245,6 +251,12 @@ html, body { background: #111; box-sizing: border-box; font-family: "Open Sans",
 .gel-swatch-L058 { background: #B46EF0; }
 
 .gel-swatch-L058 .gel-swatch-code { color: #5b109b; }
+
+.gel-L720 { background: #d8e5f1; }
+
+.gel-swatch-L720 { background: #C3E1FB; }
+
+.gel-swatch-L720 .gel-swatch-code { color: #1c8df0; }
 
 .gel-L352 { background: #a8dae5; }
 
@@ -390,6 +402,12 @@ html, body { background: #111; box-sizing: border-box; font-family: "Open Sans",
 
 .gel-swatch-L602 .gel-swatch-code { color: #4c4c50; }
 
+.gel-L225 { background: #e0e0e1; }
+
+.gel-swatch-L225 { background: #D5D6D8; }
+
+.gel-swatch-L225 .gel-swatch-code { color: #797c82; }
+
 .gel-L008 { background: #f1c6b9; }
 
 .gel-swatch-L008 { background: #FC9B80; }
@@ -522,6 +540,12 @@ html, body { background: #111; box-sizing: border-box; font-family: "Open Sans",
 
 .gel-swatch-L172 .gel-swatch-code { color: #002a2a; }
 
+.gel-L255 { background: #f3f3f3; }
+
+.gel-swatch-L255 { background: #FFFFFF; }
+
+.gel-swatch-L255 .gel-swatch-code { color: #a6a6a6; }
+
 .gel-L723 { background: #a4bae3; }
 
 .gel-swatch-L723 { background: #5082DC; }
@@ -539,6 +563,12 @@ html, body { background: #111; box-sizing: border-box; font-family: "Open Sans",
 .gel-swatch-L136 { background: #F0BEE6; }
 
 .gel-swatch-L136 .gel-swatch-code { color: #cc2fad; }
+
+.gel-L717 { background: #d8e5f1; }
+
+.gel-swatch-L717 { background: #C3E1FB; }
+
+.gel-swatch-L717 .gel-swatch-code { color: #1c8df0; }
 
 .gel-L442 { background: #f1e3ce; }
 
@@ -707,5 +737,11 @@ html, body { background: #111; box-sizing: border-box; font-family: "Open Sans",
 .gel-swatch-L004 { background: #FFC8B4; }
 
 .gel-swatch-L004 .gel-swatch-code { color: #ff4502; }
+
+.gel-L250 { background: #eeefef; }
+
+.gel-swatch-L250 { background: #F6F7F8; }
+
+.gel-swatch-L250 .gel-swatch-code { color: #929eaa; }
 
 /*# sourceMappingURL=main.css.map */
