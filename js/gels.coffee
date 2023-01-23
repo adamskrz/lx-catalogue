@@ -63,7 +63,7 @@ $(document).ready ->
   # Parse DOM and extract gels
   $(GEL_ELEMENTS).each ->
     # slice RGB values and convert from hex to dec
-    gel_color = String(parseInt($(@).data(GEL_DATA_COLOR)))
+    gel_color = String($(@).data(GEL_DATA_COLOR))
     r = parseInt(gel_color.slice(0,2), 16)
     g = parseInt(gel_color.slice(2,4), 16)
     b = parseInt(gel_color.slice(4,6), 16)
