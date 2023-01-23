@@ -73,14 +73,15 @@
   $(document).ready(function() {
     var gel_template;
     $(GEL_ELEMENTS).each(function() {
-      var b, g, gel, r;
-      r = parseInt($(this).data(GEL_DATA_COLOR).slice(0, 2), 16);
-      g = parseInt($(this).data(GEL_DATA_COLOR).slice(2, 4), 16);
-      b = parseInt($(this).data(GEL_DATA_COLOR).slice(4, 6), 16);
+      var b, g, gel, gel_color, r;
+      gel_color = String(parseInt($(this).data(GEL_DATA_COLOR)));
+      r = parseInt(gel_color.slice(0, 2), 16);
+      g = parseInt(gel_color.slice(2, 4), 16);
+      b = parseInt(gel_color.slice(4, 6), 16);
       gel = {
         sort: $(this).data(GEL_DATA_CODE).slice(1),
         code: $(this).data(GEL_DATA_CODE),
-        color: $(this).data(GEL_DATA_COLOR),
+        color: gel_color,
         hue: rgb2hue(r, g, b),
         name: $(this).data(GEL_DATA_NAME),
         description: $(this).data(GEL_DATA_DESCRIPTION)
