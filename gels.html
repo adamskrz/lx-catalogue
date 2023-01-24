@@ -27,7 +27,8 @@ permalink: /gels/
 
 <div class="gels">
   <ul id="gels-list" class="gels-list">
-    {% for gel in site.data.gels %}
+    {% assign gels_by_code = site.data.gels | sort: 'code' %}
+    {% for gel in gels_by_code %}
     <li
       data-gel-code="{{ gel.code }}"
       data-gel-color="{{ gel.color }}"
