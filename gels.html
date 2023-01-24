@@ -33,6 +33,7 @@ permalink: /gels/
       data-gel-color="{{ gel.color }}"
       data-gel-name="{{ gel.name }}"
       data-gel-description="{{ gel.description }}"
+      data-gel-sheets="{{ gel.stock.sheet }}"
     >
       <div class="gel-item gel-{{ gel.code }}">
         <div class="gel-swatch gel-swatch-{{ gel.code }}">
@@ -40,6 +41,9 @@ permalink: /gels/
         </div>
         <h2>{{ gel.name }}</h2>
         <p>{{ gel.description }}</p>
+        <dl class="gel-sheets">
+          Sheets {{ gel.stock.sheet }}
+        </dl>
       </div>
     </li>
     {% endfor %}
@@ -56,6 +60,9 @@ permalink: /gels/
       </div>
       <h2><%= gel.name %></h2>
       <p><%= gel.description %></p>
+      <dl class="gel-sheets">
+        Sheets: <%= gel.sheets %>
+      </dl>
     </div>
   </li>
 </script>

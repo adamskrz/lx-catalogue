@@ -9,6 +9,7 @@ GEL_DATA_CODE = "gel-code"
 GEL_DATA_COLOR = "gel-color"
 GEL_DATA_NAME = "gel-name"
 GEL_DATA_DESCRIPTION = "gel-description"
+GEL_DATA_SHEETS = "gel-sheets"
 
 SORT_BUTTONS = ".nav-button"
 SORT_NUMERIC = "#gel-sort-numeric"
@@ -76,6 +77,7 @@ $(document).ready ->
       hue: rgb2hue(r,g,b),
       name: $(@).data(GEL_DATA_NAME),
       description: $(@).data(GEL_DATA_DESCRIPTION),
+      sheets: $(@).data(GEL_DATA_SHEETS)
     }
     gel_lib.push(gel)
 
