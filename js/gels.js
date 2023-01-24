@@ -1,5 +1,5 @@
 (function() {
-  var FILTER_TEXT, GEL_CONTAINER, GEL_DATA_CODE, GEL_DATA_COLOR, GEL_DATA_DESCRIPTION, GEL_DATA_NAME, GEL_ELEMENTS, GEL_TEMPLATE, SORT_ACTIVE_CLASS, SORT_BUTTONS, SORT_HUE, SORT_NUMERIC, debounce, display_gels, gel_filter, gel_lib, gel_sort, rgb2hue;
+  var FILTER_TEXT, GEL_CONTAINER, GEL_DATA_CODE, GEL_DATA_COLOR, GEL_DATA_DESCRIPTION, GEL_DATA_NAME, GEL_DATA_SHEETS, GEL_ELEMENTS, GEL_TEMPLATE, SORT_ACTIVE_CLASS, SORT_BUTTONS, SORT_HUE, SORT_NUMERIC, debounce, display_gels, gel_filter, gel_lib, gel_sort, rgb2hue;
 
   GEL_TEMPLATE = "#gel-template";
 
@@ -14,6 +14,8 @@
   GEL_DATA_NAME = "gel-name";
 
   GEL_DATA_DESCRIPTION = "gel-description";
+
+  GEL_DATA_SHEETS = "gel-sheets";
 
   SORT_BUTTONS = ".nav-button";
 
@@ -84,7 +86,8 @@
         color: gel_color,
         hue: rgb2hue(r, g, b),
         name: $(this).data(GEL_DATA_NAME),
-        description: $(this).data(GEL_DATA_DESCRIPTION)
+        description: $(this).data(GEL_DATA_DESCRIPTION),
+        sheets: $(this).data(GEL_DATA_SHEETS)
       };
       return gel_lib.push(gel);
     });
