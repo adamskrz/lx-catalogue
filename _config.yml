@@ -4,7 +4,7 @@ email: web@warwicktechcrew.co.uk
 description: >
   Warwick Tech Crew's lighting stock
   
-baseurl: "/lx-catalogue"
+baseurl: "/"
 # Build settings
 markdown: kramdown
 
