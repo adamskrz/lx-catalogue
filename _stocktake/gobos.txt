@@ -9,7 +9,7 @@ Rosco
 4x 77915 A
 7x 77805 A
 1x 77805 M
-4x 77805 B
+2x 77805 B
 1x 77259 B
 2x 77808 B
 1x 77884 M
@@ -20,15 +20,24 @@ Rosco
 2x 79203 A
 1x 78061 B
 2x 77721 A
-1x 77920 B
+
+1x 77811 B
+2x 77447 B
+4x 77787 B
+
+Missing
+2x 77805 B
+1x 77920 B - clock face
+
+
 
 Goboland
-1x 2 102 000 B
-1x 2 101 001 B
-2x 2 542 012 B
-1x 2 431 003 B
-1x 2 180 010 B
+1x 2 102 000 B /
+1x 2 101 001 B /
+2x 2 542 012 B /
+1x 2 431 003 B /
+1x 2 180 010 B /
 
 Custom
-2x WSAF splodge A
-1x WSAF glass b
+2x WSAF splodge A /
+1x WSAF glass b /
