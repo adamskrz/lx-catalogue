@@ -1,0 +1,11 @@
+[project]
+name = "lx-catalogue"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bs4>=0.0.2",
+    "lxml>=5.3.0",
+    "pyyaml>=6.0.2",
+    "requests>=2.32.3",
+]
