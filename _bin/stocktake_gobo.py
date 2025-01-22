@@ -65,16 +65,19 @@ print("{} gobo makes to process, processing all known".format(len(igobos)))
 for gobo in ogobos:
     make = gobo["make"]
     code = gobo["number"]
-    gobo["stock_locations"] = []
     gobo["stock"] = []
     if make in igobos and code in igobos[make]:
         # In input list, add what we have
         for size, amount in igobos[make][code].items():
+            sizedict = {"size": size, "qty": None, "locations": []}
             for location, qty in amount.items():
                 if location == "total":
-                    gobo["stock"].append({"size": size, "qty": qty})
+                    sizedict["qty"] = qty
                     continue
-                gobo["stock_locations"].append({"size": size, "qty": qty, "location": location})
+
+                sizedict["locations"].append({"name": location, "qty": qty})
+
+            gobo["stock"].append(sizedict)
 
         # Done with gobo, pop from dict
         igobos[make].pop(code)
@@ -89,12 +92,13 @@ for make in igobos:
         locations = []
         stock = []
         for size, amount in sizes.items():
+            sizedict = {"size": size, "qty": None, "locations": []}
             for location, qty in amount.items():
                 if location == "total":
-                    stock.append({"size": size, "qty": qty})
+                    sizedict["qty"] = qty
                     continue
-                locations.append({"size": size, "qty": qty, "location": location})
-        gobo["stock_locations"] = locations
+                sizedict["locations"].append({"name": location, "qty": qty})
+            stock.append(sizedict)
         gobo["stock"] = stock
         ogobos.append(gobo)
 
