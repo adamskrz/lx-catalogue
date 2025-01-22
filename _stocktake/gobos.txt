@@ -29,7 +29,7 @@ Tech Crew
 1x Goboland 2 431 003 B
 1x Goboland 2 180 010 B
 2x Custom WSAF splodge A
-1x Custom WSAF glass b
+1x Custom WSAF glass B
 
 
 Tech Crew - Missing
@@ -65,7 +65,7 @@ WAC ABSTRACT B
 1x 77936 B
 1x 77861 B
 1x 78061 B
-1x GoboPlus GP201
+1x GoboPlus GP503 B
 1x 77426 B
 1x Custom Bat B
 1x 77217 B
@@ -163,7 +163,7 @@ WAC FLAMES A
 2x 77960 A
 1x 77175 A
 1x 77176 A
-1x 77859 a
+1x 77859 A
 
 
 WAC FLAMES B
@@ -204,6 +204,7 @@ WAC CRESCENTS & MOONS A
 WAC CLOUDS A
 3x 77168 A
 1x 77561 A
+
 
 WAC LOOSE
 1x 82700 B
