@@ -46,7 +46,9 @@ for location in text:
                 manufacturer_name = "Rosco"
                 code = line_split[0]
 
-            print(f"{manufacturer_name}: {code}, {size} size, {amount} in {location_name}")
+            print(
+                f"{manufacturer_name}: {code}, {size} size, {amount} in {location_name}"
+            )
             input_gobo(manufacturer_name, code, size, location_name, amount)
 
 
