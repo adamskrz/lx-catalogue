@@ -1,4 +1,4 @@
-Rosco
+Tech Crew
 2x 79144 M
 2x 78202 A
 5x 78136 B
@@ -20,24 +20,20 @@ Rosco
 2x 79203 A
 1x 78061 B
 2x 77721 A
-
 1x 77811 B
 2x 77447 B
 4x 77787 B
 
-Missing
+1x Goboland 2 102 000 B
+1x Goboland 2 101 001 B
+2x Goboland 2 542 012 B
+1x Goboland 2 431 003 B
+1x Goboland 2 180 010 B
+
+2x Custom WSAF splodge A
+1x Custom WSAF glass b
+
+
+Tech Crew - Missing
 2x 77805 B
-1x 77920 B - clock face
-
-
-
-Goboland
-1x 2 102 000 B /
-1x 2 101 001 B /
-2x 2 542 012 B /
-1x 2 431 003 B /
-1x 2 180 010 B /
-
-Custom
-2x WSAF splodge A /
-1x WSAF glass b /
+1x 77920 B
