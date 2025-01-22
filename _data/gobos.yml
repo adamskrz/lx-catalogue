@@ -1,6 +1,9 @@
 - make: Custom
   number: '"7"'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC ABSTRACT A
     qty: 1
     size: A
@@ -8,6 +11,9 @@
 - make: Custom
   number: '"Hong Kong"'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC ABSTRACT A
     qty: 1
     size: A
@@ -15,6 +21,9 @@
 - make: Custom
   number: '"letting go"'
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC ABSTRACT B
     qty: 1
     size: B
@@ -24,6 +33,9 @@
   name: star break up 1
   number: 2 101 001
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: Tech Crew
     qty: 1
     size: B
@@ -33,6 +45,9 @@
   name: starlit night
   number: 2 102 000
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: Tech Crew
     qty: 1
     size: B
@@ -42,6 +57,9 @@
   name: linear equality
   number: 2 180 010
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: Tech Crew
     qty: 1
     size: B
@@ -51,6 +69,9 @@
   name: lots of love
   number: 2 431 003
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: Tech Crew
     qty: 1
     size: B
@@ -60,6 +81,9 @@
   name: currency break up 2
   number: 2 542 012
   stock:
+  - qty: 2
+    size: B
+  stock_locations:
   - location: Tech Crew
     qty: 2
     size: B
@@ -69,6 +93,9 @@
   name: Jagged Breakup
   number: '71030'
   stock:
+  - qty: 2
+    size: B
+  stock_locations:
   - location: Tech Crew
     qty: 1
     size: B
@@ -81,6 +108,9 @@
   name: Christmas Tree A
   number: '73631'
   stock:
+  - qty: 6
+    size: A
+  stock_locations:
   - location: WAC CHRISTMAS MISC
     qty: 6
     size: A
@@ -90,6 +120,11 @@
   name: Dot Breakup (Med)
   number: '77053'
   stock:
+  - qty: 1
+    size: A
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC CIRCLES & SPOTS A/B
     qty: 1
     size: A
@@ -102,6 +137,11 @@
   name: Bars
   number: '77090'
   stock:
+  - qty: 2
+    size: A
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC WINDOWS A/B (modified - check before use)
     qty: 2
     size: A
@@ -114,6 +154,9 @@
   name: Tree 5
   number: '77101'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC TREES A
     qty: 1
     size: A
@@ -123,6 +166,9 @@
   name: Pine Branches
   number: '77107'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC TREES A
     qty: 1
     size: A
@@ -132,6 +178,9 @@
   name: Blossoms (Detail)
   number: '77109'
   stock:
+  - qty: 2
+    size: A
+  stock_locations:
   - location: WAC TREES A
     qty: 2
     size: A
@@ -141,6 +190,11 @@
   name: Tree 1
   number: '77114'
   stock:
+  - qty: 2
+    size: A
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC TREES A
     qty: 2
     size: A
@@ -153,6 +207,11 @@
   name: Leaf Breakup (Small)
   number: '77119'
   stock:
+  - qty: 2
+    size: B
+  - qty: 2
+    size: A
+  stock_locations:
   - location: WAC BREAKUPS B
     qty: 2
     size: B
@@ -166,6 +225,7 @@
   name: Lattice
   number: 77124
   stock: []
+  stock_locations: []
   type: Architecture
 
 - image: rosco-77126.jpg
@@ -173,6 +233,9 @@
   name: Jungle Leaves
   number: '77126'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC LEAVES & PLANTS A
     qty: 1
     size: A
@@ -182,6 +245,9 @@
   name: Circular
   number: '77136'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC WINDOWS A/B (modified - check before use)
     qty: 1
     size: A
@@ -191,6 +257,9 @@
   name: Half Moon
   number: '77154'
   stock:
+  - qty: 3
+    size: A
+  stock_locations:
   - location: WAC CRESCENTS & MOONS A
     qty: 3
     size: A
@@ -200,6 +269,9 @@
   name: Star A
   number: '77156'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC FIREWORKS & STARS A
     qty: 1
     size: A
@@ -209,6 +281,9 @@
   name: Cloud 7
   number: '77165'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: Tech Crew
     qty: 1
     size: A
@@ -218,6 +293,9 @@
   name: Cloud 10
   number: '77168'
   stock:
+  - qty: 3
+    size: A
+  stock_locations:
   - location: WAC CLOUDS A
     qty: 3
     size: A
@@ -227,6 +305,11 @@
   name: Flames 1
   number: '77175'
   stock:
+  - qty: 1
+    size: A
+  - qty: 2
+    size: B
+  stock_locations:
   - location: WAC FLAMES A
     qty: 1
     size: A
@@ -239,6 +322,9 @@
   name: Flames 2
   number: '77176'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC FLAMES A
     qty: 1
     size: A
@@ -248,6 +334,9 @@
   name: Stars 2
   number: '77202'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC FIREWORKS & STARS A
     qty: 1
     size: A
@@ -257,6 +346,9 @@
   name: Louvre
   number: '77215'
   stock:
+  - qty: 2
+    size: A
+  stock_locations:
   - location: WAC WINDOWS A/B (modified - check before use)
     qty: 2
     size: A
@@ -266,6 +358,9 @@
   name: Pick Up Sticks Reversed
   number: '77217'
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC ABSTRACT B
     qty: 1
     size: B
@@ -275,6 +370,9 @@
   name: Courageous
   number: '77259'
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: Tech Crew
     qty: 1
     size: B
@@ -284,6 +382,11 @@
   name: Jazz
   number: '77301'
   stock:
+  - qty: 1
+    size: A
+  - qty: 2
+    size: B
+  stock_locations:
   - location: WAC ABSTRACT A
     qty: 1
     size: A
@@ -296,6 +399,9 @@
   name: Eiffel Tower
   number: '77305'
   stock:
+  - qty: 3
+    size: B
+  stock_locations:
   - location: WAC WEIRD/USEFUL PAIRS
     qty: 3
     size: B
@@ -305,6 +411,9 @@
   name: Stars 3
   number: '77317'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC FIREWORKS & STARS A
     qty: 1
     size: A
@@ -314,6 +423,11 @@
   name: Tree 3
   number: '77320'
   stock:
+  - qty: 2
+    size: A
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC TREES A
     qty: 2
     size: A
@@ -326,6 +440,9 @@
   name: Eastern
   number: '77337'
   stock:
+  - qty: 3
+    size: B
+  stock_locations:
   - location: Tech Crew
     qty: 2
     size: B
@@ -338,6 +455,9 @@
   name: Linear 2
   number: '77402'
   stock:
+  - qty: 4
+    size: A
+  stock_locations:
   - location: WAC WATER A
     qty: 4
     size: A
@@ -347,6 +467,9 @@
   name: Cone & Spot
   number: '77426'
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC ABSTRACT B
     qty: 1
     size: B
@@ -356,6 +479,9 @@
   name: Champagne
   number: '77430'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC ABSTRACT A
     qty: 1
     size: A
@@ -365,6 +491,9 @@
   name: Leaf Breakup (Distorted)
   number: '77447'
   stock:
+  - qty: 3
+    size: B
+  stock_locations:
   - location: Tech Crew
     qty: 2
     size: B
@@ -377,6 +506,9 @@
   name: Clouds (Distorted)
   number: '77448'
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC CLOUDS B
     qty: 1
     size: B
@@ -386,6 +518,11 @@
   name: Linear 3
   number: '77501'
   stock:
+  - qty: 4
+    size: B
+  - qty: 3
+    size: A
+  stock_locations:
   - location: Tech Crew
     qty: 1
     size: B
@@ -401,6 +538,11 @@
   name: Linear 5
   number: '77503'
   stock:
+  - qty: 4
+    size: B
+  - qty: 4
+    size: A
+  stock_locations:
   - location: WAC LINEAR A/B
     qty: 4
     size: B
@@ -413,6 +555,9 @@
   name: Squares
   number: '77524'
   stock:
+  - qty: 2
+    size: B
+  stock_locations:
   - location: WAC WINDOWS A/B (modified - check before use)
     qty: 2
     size: B
@@ -422,6 +567,9 @@
   name: Floral 4
   number: '77533'
   stock:
+  - qty: 2
+    size: A
+  stock_locations:
   - location: WAC LEAVES & PLANTS A
     qty: 2
     size: A
@@ -431,6 +579,9 @@
   name: Martin Guerre Branches 1
   number: '77549'
   stock:
+  - qty: 10
+    size: A
+  stock_locations:
   - location: WAC TREES A
     qty: 10
     size: A
@@ -440,6 +591,9 @@
   name: Pines
   number: '77551'
   stock:
+  - qty: 3
+    size: B
+  stock_locations:
   - location: WAC TREES B
     qty: 3
     size: B
@@ -449,6 +603,9 @@
   name: Skeleton
   number: '77557'
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC ABSTRACT B
     qty: 1
     size: B
@@ -458,6 +615,11 @@
   name: Linear 7
   number: '77561'
   stock:
+  - qty: 1
+    size: B
+  - qty: 1
+    size: A
+  stock_locations:
   - location: Tech Crew
     qty: 1
     size: B
@@ -470,6 +632,9 @@
   name: Autumn Breakup
   number: '77572'
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC BREAKUPS B
     qty: 1
     size: B
@@ -479,6 +644,9 @@
   name: Multi Coils
   number: '77641'
   stock:
+  - qty: 2
+    size: B
+  stock_locations:
   - location: WAC FIREWORKS & STARS B
     qty: 2
     size: B
@@ -488,6 +656,9 @@
   name: Venetian Blind
   number: '77702'
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: Tech Crew
     qty: 1
     size: B
@@ -497,6 +668,9 @@
   name: Cloud 2
   number: '77712'
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC CLOUDS B
     qty: 1
     size: B
@@ -506,6 +680,9 @@
   name: Breakup (Small)
   number: '77721'
   stock:
+  - qty: 2
+    size: A
+  stock_locations:
   - location: Tech Crew
     qty: 2
     size: A
@@ -515,6 +692,11 @@
   name: Jungle Leaf
   number: '77731'
   stock:
+  - qty: 2
+    size: B
+  - qty: 4
+    size: A
+  stock_locations:
   - location: WAC WEIRD/USEFUL PAIRS
     qty: 2
     size: B
@@ -527,6 +709,9 @@
   name: Realistic Leaves
   number: '77732'
   stock:
+  - qty: 4
+    size: A
+  stock_locations:
   - location: WAC LEAVES & PLANTS A
     qty: 4
     size: A
@@ -536,6 +721,9 @@
   name: Pine Trees
   number: '77734'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC TREES A
     qty: 1
     size: A
@@ -545,6 +733,9 @@
   name: Irregular Breakup
   number: '77738'
   stock:
+  - qty: 2
+    size: B
+  stock_locations:
   - location: WAC BREAKUPS A
     qty: 2
     size: B
@@ -554,6 +745,9 @@
   name: Stars 4
   number: '77752'
   stock:
+  - qty: 2
+    size: B
+  stock_locations:
   - location: WAC FIREWORKS & STARS B
     qty: 2
     size: B
@@ -563,6 +757,9 @@
   name: Morgue Window
   number: '77755'
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC CLOUDS B
     qty: 1
     size: B
@@ -572,6 +769,9 @@
   name: Fireworks 1
   number: '77766'
   stock:
+  - qty: 3
+    size: B
+  stock_locations:
   - location: WAC FIREWORKS & STARS B
     qty: 3
     size: B
@@ -581,6 +781,9 @@
   name: Blossoms
   number: '77774'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC TREES A
     qty: 1
     size: A
@@ -590,6 +793,9 @@
   name: Fire/Waves
   number: '77775'
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC FLAMES B
     qty: 1
     size: B
@@ -599,6 +805,11 @@
   name: Lightning/Branch
   number: '77776'
   stock:
+  - qty: 1
+    size: B
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC ABSTRACT B
     qty: 1
     size: B
@@ -611,6 +822,9 @@
   name: Bare Branches (Reversed)
   number: '77778'
   stock:
+  - qty: 10
+    size: B
+  stock_locations:
   - location: WAC TREES B
     qty: 10
     size: B
@@ -620,6 +834,11 @@
   name: Foliage (Medium)
   number: '77779'
   stock:
+  - qty: 1
+    size: A
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC TREES A
     qty: 1
     size: A
@@ -632,6 +851,9 @@
   name: Bamboo
   number: '77781'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC TREES A
     qty: 1
     size: A
@@ -641,6 +863,9 @@
   name: Cobblestones
   number: '77787'
   stock:
+  - qty: 6
+    size: B
+  stock_locations:
   - location: Tech Crew
     qty: 4
     size: B
@@ -653,6 +878,9 @@
   name: Web
   number: '77788'
   stock:
+  - qty: 2
+    size: B
+  stock_locations:
   - location: WAC ABSTRACT A
     qty: 1
     size: B
@@ -665,6 +893,13 @@
   name: Leaf Breakup (Medium)
   number: '77805'
   stock:
+  - qty: 20
+    size: A
+  - qty: 1
+    size: M
+  - qty: 6
+    size: B
+  stock_locations:
   - location: Tech Crew
     qty: 7
     size: A
@@ -689,6 +924,11 @@
   name: Leaf Breakup (Large)
   number: '77806'
   stock:
+  - qty: 1
+    size: B
+  - qty: 2
+    size: A
+  stock_locations:
   - location: WAC BREAKUPS B
     qty: 1
     size: B
@@ -701,6 +941,11 @@
   name: Dot Breakup (Large)
   number: '77808'
   stock:
+  - qty: 3
+    size: B
+  - qty: 1
+    size: A
+  stock_locations:
   - location: Tech Crew
     qty: 2
     size: B
@@ -716,6 +961,11 @@
   name: Soft Breakup
   number: '77811'
   stock:
+  - qty: 1
+    size: M
+  - qty: 3
+    size: B
+  stock_locations:
   - location: Tech Crew
     qty: 1
     size: M
@@ -731,6 +981,9 @@
   name: Palm Tree
   number: '77838'
   stock:
+  - qty: 5
+    size: A
+  stock_locations:
   - location: WAC TREES A
     qty: 5
     size: A
@@ -740,6 +993,9 @@
   name: Forest
   number: '77841'
   stock:
+  - qty: 3
+    size: A
+  stock_locations:
   - location: WAC TREES A
     qty: 3
     size: A
@@ -749,6 +1005,9 @@
   name: York Minster
   number: '77856'
   stock:
+  - qty: 2
+    size: B
+  stock_locations:
   - location: Tech Crew
     qty: 2
     size: B
@@ -758,6 +1017,9 @@
   name: Autumnal
   number: '77857'
   stock:
+  - qty: 4
+    size: A
+  stock_locations:
   - location: WAC LEAVES & PLANTS A
     qty: 4
     size: A
@@ -767,6 +1029,9 @@
   name: Flames 3
   number: '77859'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC FLAMES A
     qty: 1
     size: A
@@ -776,6 +1041,9 @@
   name: Leaf Vignette
   number: '77861'
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC ABSTRACT B
     qty: 1
     size: B
@@ -785,6 +1053,9 @@
   name: The World
   number: '77878'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC ABSTRACT A
     qty: 1
     size: A
@@ -794,6 +1065,11 @@
   name: Snow
   number: '77884'
   stock:
+  - qty: 1
+    size: M
+  - qty: 1
+    size: B
+  stock_locations:
   - location: Tech Crew
     qty: 1
     size: M
@@ -806,6 +1082,9 @@
   name: Laser Line
   number: '77891'
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC LINEAR A/B
     qty: 1
     size: B
@@ -815,6 +1094,9 @@
   name: Doodles
   number: '77908'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC BREAKUPS A
     qty: 1
     size: A
@@ -824,6 +1106,9 @@
   name: Foam
   number: '77915'
   stock:
+  - qty: 4
+    size: A
+  stock_locations:
   - location: Tech Crew
     qty: 4
     size: A
@@ -833,6 +1118,9 @@
   name: Clock Face
   number: '77920'
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: Tech Crew - Missing
     qty: 1
     size: B
@@ -842,6 +1130,9 @@
   name: Vortex
   number: '77927'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC WEIRD/USEFUL PAIRS
     qty: 1
     size: A
@@ -851,6 +1142,11 @@
   name: Comedy and Tragedy
   number: '77936'
   stock:
+  - qty: 1
+    size: B
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC ABSTRACT B
     qty: 1
     size: B
@@ -863,6 +1159,9 @@
   name: Baubles
   number: '77942'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC CHRISTMAS MISC
     qty: 1
     size: A
@@ -872,6 +1171,9 @@
   name: Bat
   number: '77947'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC ABSTRACT A
     qty: 1
     size: A
@@ -881,6 +1183,9 @@
   name: Christmas Leaves
   number: '77954'
   stock:
+  - qty: 4
+    size: A
+  stock_locations:
   - location: WAC CHRISTMAS MISC
     qty: 4
     size: A
@@ -890,6 +1195,9 @@
   name: Flames 4
   number: '77960'
   stock:
+  - qty: 2
+    size: A
+  stock_locations:
   - location: WAC FLAMES A
     qty: 2
     size: A
@@ -899,6 +1207,9 @@
   name: Fireworks 5B
   number: '78012'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC FIREWORKS & STARS A
     qty: 1
     size: A
@@ -908,6 +1219,9 @@
   name: Small Squares
   number: '78041'
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC WINDOWS A/B (modified - check before use)
     qty: 1
     size: B
@@ -917,6 +1231,9 @@
   name: Plain Cross
   number: '78061'
   stock:
+  - qty: 2
+    size: B
+  stock_locations:
   - location: Tech Crew
     qty: 1
     size: B
@@ -929,6 +1246,9 @@
   name: Gull
   number: '78095'
   stock:
+  - qty: 1
+    size: MAC500
+  stock_locations:
   - location: WAC ABSTRACT B
     qty: 1
     size: MAC500
@@ -938,6 +1258,9 @@
   name: Splodge
   number: '78136'
   stock:
+  - qty: 5
+    size: B
+  stock_locations:
   - location: Tech Crew
     qty: 5
     size: B
@@ -947,6 +1270,9 @@
   name: Decorative Lattice
   number: '78202'
   stock:
+  - qty: 2
+    size: A
+  stock_locations:
   - location: Tech Crew
     qty: 2
     size: A
@@ -956,6 +1282,9 @@
   name: Milky Way 2
   number: '79002'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC WEIRD/USEFUL PAIRS
     qty: 1
     size: A
@@ -965,6 +1294,9 @@
   name: Double Belfry
   number: '79018'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC WINDOWS A/B (modified - check before use)
     qty: 1
     size: A
@@ -974,6 +1306,9 @@
   name: Leafy Branches 4
   number: '79110'
   stock:
+  - qty: 2
+    size: B
+  stock_locations:
   - location: WAC TREES B
     qty: 2
     size: B
@@ -983,6 +1318,9 @@
   name: Cabaret 2
   number: '79144'
   stock:
+  - qty: 2
+    size: M
+  stock_locations:
   - location: Tech Crew
     qty: 2
     size: M
@@ -992,6 +1330,9 @@
   name: Horizon 1
   number: '79173'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC WATER A
     qty: 1
     size: A
@@ -1001,6 +1342,9 @@
   name: Horizon 2
   number: '79174'
   stock:
+  - qty: 2
+    size: A
+  stock_locations:
   - location: WAC WATER A
     qty: 2
     size: A
@@ -1010,6 +1354,9 @@
   name: Star of Bethlehem 2
   number: '79179'
   stock:
+  - qty: 1
+    size: A
+  stock_locations:
   - location: WAC FIREWORKS & STARS A
     qty: 1
     size: A
@@ -1019,6 +1366,9 @@
   name: Linear 10
   number: '79203'
   stock:
+  - qty: 2
+    size: A
+  stock_locations:
   - location: Tech Crew
     qty: 2
     size: A
@@ -1028,6 +1378,9 @@
   name: Moon Glass
   number: '82700'
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC LOOSE
     qty: 1
     size: B
@@ -1035,6 +1388,9 @@
 - make: Custom
   number: Bat
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC ABSTRACT B
     qty: 1
     size: B
@@ -1042,6 +1398,9 @@
 - make: GAM
   number: G232
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC FIREWORKS & STARS B
     qty: 1
     size: B
@@ -1051,6 +1410,9 @@
   name: Winter Tree
   number: GP201
   stock:
+  - qty: 3
+    size: A
+  stock_locations:
   - location: WAC TREES A
     qty: 3
     size: A
@@ -1060,6 +1422,9 @@
   name: Alps
   number: GP503
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: WAC ABSTRACT B
     qty: 1
     size: B
@@ -1068,6 +1433,9 @@
   make: Custom
   number: WSAF glass
   stock:
+  - qty: 1
+    size: B
+  stock_locations:
   - location: Tech Crew
     qty: 1
     size: B
@@ -1076,6 +1444,9 @@
   make: Custom
   number: WSAF splodge
   stock:
+  - qty: 2
+    size: A
+  stock_locations:
   - location: Tech Crew
     qty: 2
     size: A
@@ -1083,6 +1454,9 @@
 - make: DHA
   number: pointy crescent
   stock:
+  - qty: 5
+    size: A
+  stock_locations:
   - location: WAC CRESCENTS & MOONS A
     qty: 5
     size: A

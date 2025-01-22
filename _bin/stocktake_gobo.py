@@ -46,9 +46,15 @@ for location in text:
                 manufacturer_name = "Rosco"
                 code = line_split[0]
 
-            # print(f"{manufacturer_name}: {code}, {size} size, {amount} in {location_name}")
+            print(f"{manufacturer_name}: {code}, {size} size, {amount} in {location_name}")
             input_gobo(manufacturer_name, code, size, location_name, amount)
 
+
+# get stock totals
+for make in igobos:
+    for code in igobos[make]:
+        for size in igobos[make][code]:
+            igobos[make][code][size]["total"] = sum(igobos[make][code][size].values())
 
 with open("_data/gobos.yml", "r") as f:
     ogobos = yaml.load(f, Loader=yaml.Loader)
@@ -59,12 +65,16 @@ print("{} gobo makes to process, processing all known".format(len(igobos)))
 for gobo in ogobos:
     make = gobo["make"]
     code = gobo["number"]
+    gobo["stock_locations"] = []
     gobo["stock"] = []
     if make in igobos and code in igobos[make]:
         # In input list, add what we have
         for size, amount in igobos[make][code].items():
             for location, qty in amount.items():
-                gobo["stock"].append({"size": size, "qty": qty, "location": location})
+                if location == "total":
+                    gobo["stock"].append({"size": size, "qty": qty})
+                    continue
+                gobo["stock_locations"].append({"size": size, "qty": qty, "location": location})
 
         # Done with gobo, pop from dict
         igobos[make].pop(code)
@@ -75,11 +85,16 @@ print("{} gobo makes to process, processing unknowns".format(len(igobos)))
 
 for make in igobos:
     for code, sizes in igobos[make].items():
-        gobo = {"make": make, "number": code, "stock": None}
+        gobo = {"make": make, "number": code}
+        locations = []
         stock = []
         for size, amount in sizes.items():
             for location, qty in amount.items():
-                stock.append({"size": size, "qty": qty, "location": location})
+                if location == "total":
+                    stock.append({"size": size, "qty": qty})
+                    continue
+                locations.append({"size": size, "qty": qty, "location": location})
+        gobo["stock_locations"] = locations
         gobo["stock"] = stock
         ogobos.append(gobo)
 
