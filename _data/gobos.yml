@@ -1277,7 +1277,9 @@
     qty: 1
     size: B
 
-- make: GAM
+- image: gam-g232.jpg
+  make: GAM
+  name: Large Stars
   number: G232
   stock:
   - locations:
