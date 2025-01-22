@@ -1,9 +1,31 @@
+- make: Custom
+  number: '"7"'
+  stock:
+  - location: WAC ABSTRACT A
+    qty: 1
+    size: A
+
+- make: Custom
+  number: '"Hong Kong"'
+  stock:
+  - location: WAC ABSTRACT A
+    qty: 1
+    size: A
+
+- make: Custom
+  number: '"letting go"'
+  stock:
+  - location: WAC ABSTRACT B
+    qty: 1
+    size: B
+
 - image: goboland-2101001.jpg
   make: Goboland
   name: star break up 1
   number: 2 101 001
   stock:
-  - qty: '1'
+  - location: Tech Crew
+    qty: 1
     size: B
 
 - image: goboland-2102000.jpg
@@ -11,7 +33,8 @@
   name: starlit night
   number: 2 102 000
   stock:
-  - qty: '1'
+  - location: Tech Crew
+    qty: 1
     size: B
 
 - image: goboland-2180010.jpg
@@ -19,7 +42,8 @@
   name: linear equality
   number: 2 180 010
   stock:
-  - qty: '1'
+  - location: Tech Crew
+    qty: 1
     size: B
 
 - image: goboland-2431003.jpg
@@ -27,7 +51,8 @@
   name: lots of love
   number: 2 431 003
   stock:
-  - qty: '1'
+  - location: Tech Crew
+    qty: 1
     size: B
 
 - image: goboland-2542012.jpg
@@ -35,7 +60,8 @@
   name: currency break up 2
   number: 2 542 012
   stock:
-  - qty: '2'
+  - location: Tech Crew
+    qty: 2
     size: B
 
 - image: rosco-71030.jpg
@@ -43,8 +69,80 @@
   name: Jagged Breakup
   number: '71030'
   stock:
-  - qty: '1'
+  - location: Tech Crew
+    qty: 1
     size: B
+  - location: WAC BREAKUPS B
+    qty: 1
+    size: B
+
+- make: Rosco
+  number: '73631'
+  stock:
+  - location: WAC CHRISTMAS MISC
+    qty: 6
+    size: A
+
+- make: Rosco
+  number: '77053'
+  stock:
+  - location: WAC CIRCLES & SPOTS A/B
+    qty: 1
+    size: A
+  - location: WAC CIRCLES & SPOTS A/B
+    qty: 1
+    size: B
+
+- make: Rosco
+  number: '77090'
+  stock:
+  - location: WAC WINDOWS A/B (modified - check before use)
+    qty: 2
+    size: A
+  - location: WAC WINDOWS A/B (modified - check before use)
+    qty: 1
+    size: B
+
+- make: Rosco
+  number: '77101'
+  stock:
+  - location: WAC TREES A
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '77107'
+  stock:
+  - location: WAC TREES A
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '77109'
+  stock:
+  - location: WAC TREES A
+    qty: 2
+    size: A
+
+- make: Rosco
+  number: '77114'
+  stock:
+  - location: WAC TREES A
+    qty: 2
+    size: A
+  - location: WAC TREES B
+    qty: 1
+    size: B
+
+- make: Rosco
+  number: '77119'
+  stock:
+  - location: WAC BREAKUPS B
+    qty: 2
+    size: B
+  - location: WAC BREAKUPS A
+    qty: 2
+    size: A
 
 - gobo: null
   image: rosco-77124.png
@@ -54,20 +152,129 @@
   stock: []
   type: Architecture
 
+- make: Rosco
+  number: '77126'
+  stock:
+  - location: WAC LEAVES & PLANTS A
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '77136'
+  stock:
+  - location: WAC WINDOWS A/B (modified - check before use)
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '77154'
+  stock:
+  - location: WAC CRESCENTS & MOONS A
+    qty: 3
+    size: A
+
+- make: Rosco
+  number: '77156'
+  stock:
+  - location: WAC FIREWORKS & STARS A
+    qty: 1
+    size: A
+
 - image: rosco-77165.jpg
   make: Rosco
   name: Cloud 7
   number: '77165'
   stock:
-  - qty: '1'
+  - location: Tech Crew
+    qty: 1
     size: A
+
+- make: Rosco
+  number: '77168'
+  stock:
+  - location: WAC CLOUDS A
+    qty: 3
+    size: A
+
+- make: Rosco
+  number: '77175'
+  stock:
+  - location: WAC FLAMES A
+    qty: 1
+    size: A
+  - location: WAC FLAMES B
+    qty: 2
+    size: B
+
+- make: Rosco
+  number: '77176'
+  stock:
+  - location: WAC FLAMES A
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '77202'
+  stock:
+  - location: WAC FIREWORKS & STARS A
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '77215'
+  stock:
+  - location: WAC WINDOWS A/B (modified - check before use)
+    qty: 2
+    size: A
+
+- make: Rosco
+  number: '77217'
+  stock:
+  - location: WAC ABSTRACT B
+    qty: 1
+    size: B
 
 - image: rosco-77259.jpg
   make: Rosco
   name: Courageous
   number: '77259'
   stock:
-  - qty: '1'
+  - location: Tech Crew
+    qty: 1
+    size: B
+
+- make: Rosco
+  number: '77301'
+  stock:
+  - location: WAC ABSTRACT A
+    qty: 1
+    size: A
+  - location: WAC WEIRD/USEFUL PAIRS
+    qty: 2
+    size: B
+
+- make: Rosco
+  number: '77305'
+  stock:
+  - location: WAC WEIRD/USEFUL PAIRS
+    qty: 3
+    size: B
+
+- make: Rosco
+  number: '77317'
+  stock:
+  - location: WAC FIREWORKS & STARS A
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '77320'
+  stock:
+  - location: WAC TREES A
+    qty: 2
+    size: A
+  - location: WAC TREES B
+    qty: 1
     size: B
 
 - image: rosco-77337.jpg
@@ -75,7 +282,49 @@
   name: Eastern
   number: '77337'
   stock:
-  - qty: '2'
+  - location: Tech Crew
+    qty: 2
+    size: B
+  - location: WAC WINDOWS A/B (modified - check before use)
+    qty: 1
+    size: B
+
+- make: Rosco
+  number: '77402'
+  stock:
+  - location: WAC WATER A
+    qty: 4
+    size: A
+
+- make: Rosco
+  number: '77426'
+  stock:
+  - location: WAC ABSTRACT B
+    qty: 1
+    size: B
+
+- make: Rosco
+  number: '77430'
+  stock:
+  - location: WAC ABSTRACT A
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '77447'
+  stock:
+  - location: Tech Crew
+    qty: 2
+    size: B
+  - location: WAC BREAKUPS B
+    qty: 1
+    size: B
+
+- make: Rosco
+  number: '77448'
+  stock:
+  - location: WAC CLOUDS B
+    qty: 1
     size: B
 
 - image: rosco-77501.jpg
@@ -83,7 +332,59 @@
   name: Linear 3
   number: '77501'
   stock:
-  - qty: '1'
+  - location: Tech Crew
+    qty: 1
+    size: B
+  - location: WAC CLOUDS B
+    qty: 3
+    size: B
+  - location: WAC WATER A
+    qty: 3
+    size: A
+
+- make: Rosco
+  number: '77503'
+  stock:
+  - location: WAC LINEAR A/B
+    qty: 4
+    size: B
+  - location: WAC LINEAR A/B
+    qty: 4
+    size: A
+
+- make: Rosco
+  number: '77524'
+  stock:
+  - location: WAC WINDOWS A/B (modified - check before use)
+    qty: 2
+    size: B
+
+- make: Rosco
+  number: '77533'
+  stock:
+  - location: WAC LEAVES & PLANTS A
+    qty: 2
+    size: A
+
+- make: Rosco
+  number: '77549'
+  stock:
+  - location: WAC TREES A
+    qty: 10
+    size: A
+
+- make: Rosco
+  number: '77551'
+  stock:
+  - location: WAC TREES B
+    qty: 3
+    size: B
+
+- make: Rosco
+  number: '77557'
+  stock:
+  - location: WAC ABSTRACT B
+    qty: 1
     size: B
 
 - image: rosco-77561.jpg
@@ -91,7 +392,25 @@
   name: Linear 7
   number: '77561'
   stock:
-  - qty: '1'
+  - location: Tech Crew
+    qty: 1
+    size: B
+  - location: WAC CLOUDS A
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '77572'
+  stock:
+  - location: WAC BREAKUPS B
+    qty: 1
+    size: B
+
+- make: Rosco
+  number: '77641'
+  stock:
+  - location: WAC FIREWORKS & STARS B
+    qty: 2
     size: B
 
 - image: rosco-77702.jpg
@@ -99,7 +418,15 @@
   name: Venetian Blind
   number: '77702'
   stock:
-  - qty: '1'
+  - location: Tech Crew
+    qty: 1
+    size: B
+
+- make: Rosco
+  number: '77712'
+  stock:
+  - location: WAC CLOUDS B
+    qty: 1
     size: B
 
 - image: rosco-77721.jpg
@@ -107,59 +434,278 @@
   name: Breakup (Small)
   number: '77721'
   stock:
-  - qty: '2'
+  - location: Tech Crew
+    qty: 2
     size: A
+
+- make: Rosco
+  number: '77731'
+  stock:
+  - location: WAC WEIRD/USEFUL PAIRS
+    qty: 2
+    size: B
+  - location: WAC LEAVES & PLANTS A
+    qty: 4
+    size: A
+
+- make: Rosco
+  number: '77732'
+  stock:
+  - location: WAC LEAVES & PLANTS A
+    qty: 4
+    size: A
+
+- make: Rosco
+  number: '77734'
+  stock:
+  - location: WAC TREES A
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '77738'
+  stock:
+  - location: WAC BREAKUPS A
+    qty: 2
+    size: B
+
+- make: Rosco
+  number: '77752'
+  stock:
+  - location: WAC FIREWORKS & STARS B
+    qty: 2
+    size: B
+
+- make: Rosco
+  number: '77755'
+  stock:
+  - location: WAC CLOUDS B
+    qty: 1
+    size: B
+
+- make: Rosco
+  number: '77766'
+  stock:
+  - location: WAC FIREWORKS & STARS B
+    qty: 3
+    size: B
+
+- make: Rosco
+  number: '77774'
+  stock:
+  - location: WAC TREES A
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '77775'
+  stock:
+  - location: WAC FLAMES B
+    qty: 1
+    size: B
+
+- make: Rosco
+  number: '77776'
+  stock:
+  - location: WAC ABSTRACT B
+    qty: 1
+    size: B
+  - location: WAC FIREWORKS & STARS A
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '77778'
+  stock:
+  - location: WAC TREES B
+    qty: 10
+    size: B
+
+- make: Rosco
+  number: '77779'
+  stock:
+  - location: WAC TREES A
+    qty: 1
+    size: A
+  - location: WAC TREES B
+    qty: 1
+    size: B
+
+- make: Rosco
+  number: '77781'
+  stock:
+  - location: WAC TREES A
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '77787'
+  stock:
+  - location: Tech Crew
+    qty: 4
+    size: B
+  - location: WAC WEIRD/USEFUL PAIRS
+    qty: 2
+    size: B
+
+- make: Rosco
+  number: '77788'
+  stock:
+  - location: WAC ABSTRACT A
+    qty: 1
+    size: B
+  - location: WAC TREES B
+    qty: 1
+    size: B
 
 - image: rosco-77805.jpg
   make: Rosco
   name: Leaf Breakup (Medium)
   number: '77805'
   stock:
-  - qty: '7'
+  - location: Tech Crew
+    qty: 7
     size: A
-  - qty: '1'
+  - location: WAC BREAKUPS A
+    qty: 13
+    size: A
+  - location: Tech Crew
+    qty: 1
     size: M
-  - qty: '4'
+  - location: Tech Crew
+    qty: 2
     size: B
+  - location: Tech Crew - Missing
+    qty: 2
+    size: B
+  - location: WAC BREAKUPS B
+    qty: 2
+    size: B
+
+- make: Rosco
+  number: '77806'
+  stock:
+  - location: WAC BREAKUPS B
+    qty: 1
+    size: B
+  - location: WAC BREAKUPS A
+    qty: 2
+    size: A
 
 - image: rosco-77808.jpg
   make: Rosco
   name: Dot Breakup (Large)
   number: '77808'
   stock:
-  - qty: '2'
+  - location: Tech Crew
+    qty: 2
     size: B
+  - location: WAC CIRCLES & SPOTS A/B
+    qty: 1
+    size: B
+  - location: WAC CIRCLES & SPOTS A/B
+    qty: 1
+    size: A
 
 - image: rosco-77811.jpg
   make: Rosco
   name: Soft Breakup
   number: '77811'
   stock:
-  - qty: '1'
+  - location: Tech Crew
+    qty: 1
     size: M
+  - location: Tech Crew
+    qty: 1
+    size: B
+  - location: WAC BREAKUPS B
+    qty: 2
+    size: B
+
+- make: Rosco
+  number: '77838'
+  stock:
+  - location: WAC TREES A
+    qty: 5
+    size: A
+
+- make: Rosco
+  number: '77841'
+  stock:
+  - location: WAC TREES A
+    qty: 3
+    size: A
 
 - image: rosco-77856.jpg
   make: Rosco
   name: York Minster
   number: '77856'
   stock:
-  - qty: '2'
+  - location: Tech Crew
+    qty: 2
     size: B
+
+- make: Rosco
+  number: '77857'
+  stock:
+  - location: WAC LEAVES & PLANTS A
+    qty: 4
+    size: A
+
+- make: Rosco
+  number: '77859'
+  stock:
+  - location: WAC FLAMES A
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '77861'
+  stock:
+  - location: WAC ABSTRACT B
+    qty: 1
+    size: B
+
+- make: Rosco
+  number: '77878'
+  stock:
+  - location: WAC ABSTRACT A
+    qty: 1
+    size: A
 
 - image: rosco-77884.jpg
   make: Rosco
   name: Snow
   number: '77884'
   stock:
-  - qty: '1'
+  - location: Tech Crew
+    qty: 1
     size: M
+  - location: WAC CIRCLES & SPOTS A/B
+    qty: 1
+    size: B
+
+- make: Rosco
+  number: '77891'
+  stock:
+  - location: WAC LINEAR A/B
+    qty: 1
+    size: B
+
+- make: Rosco
+  number: '77908'
+  stock:
+  - location: WAC BREAKUPS A
+    qty: 1
+    size: A
 
 - image: rosco-77915.jpg
   make: Rosco
   name: Foam
   number: '77915'
   stock:
-  - qty: '4'
+  - location: Tech Crew
+    qty: 4
     size: A
 
 - image: rosco-77920.jpg
@@ -167,7 +713,67 @@
   name: Clock Face
   number: '77920'
   stock:
-  - qty: '1'
+  - location: Tech Crew - Missing
+    qty: 1
+    size: B
+
+- make: Rosco
+  number: '77927'
+  stock:
+  - location: WAC WEIRD/USEFUL PAIRS
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '77936'
+  stock:
+  - location: WAC ABSTRACT B
+    qty: 1
+    size: B
+  - location: WAC ABSTRACT A
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '77942'
+  stock:
+  - location: WAC CHRISTMAS MISC
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '77947'
+  stock:
+  - location: WAC ABSTRACT A
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '77954'
+  stock:
+  - location: WAC CHRISTMAS MISC
+    qty: 4
+    size: A
+
+- make: Rosco
+  number: '77960'
+  stock:
+  - location: WAC FLAMES A
+    qty: 2
+    size: A
+
+- make: Rosco
+  number: '78012'
+  stock:
+  - location: WAC FIREWORKS & STARS A
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '78041'
+  stock:
+  - location: WAC WINDOWS A/B (modified - check before use)
+    qty: 1
     size: B
 
 - image: rosco-78061.jpg
@@ -175,15 +781,27 @@
   name: Plain Cross
   number: '78061'
   stock:
-  - qty: '1'
+  - location: Tech Crew
+    qty: 1
     size: B
+  - location: WAC ABSTRACT B
+    qty: 1
+    size: B
+
+- make: Rosco
+  number: '78095'
+  stock:
+  - location: WAC ABSTRACT B
+    qty: 1
+    size: MAC500
 
 - image: rosco-78136.jpg
   make: Rosco
   name: Splodge
   number: '78136'
   stock:
-  - qty: '5'
+  - location: Tech Crew
+    qty: 5
     size: B
 
 - image: rosco-78202.jpg
@@ -191,35 +809,128 @@
   name: Decorative Lattice
   number: '78202'
   stock:
-  - qty: '2'
+  - location: Tech Crew
+    qty: 2
     size: A
+
+- make: Rosco
+  number: '79002'
+  stock:
+  - location: WAC WEIRD/USEFUL PAIRS
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '79018'
+  stock:
+  - location: WAC WINDOWS A/B (modified - check before use)
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '79110'
+  stock:
+  - location: WAC TREES B
+    qty: 2
+    size: B
 
 - image: rosco-79144.jpg
   make: Rosco
   name: Cabaret 2
   number: '79144'
   stock:
-  - qty: '2'
+  - location: Tech Crew
+    qty: 2
     size: M
+
+- make: Rosco
+  number: '79173'
+  stock:
+  - location: WAC WATER A
+    qty: 1
+    size: A
+
+- make: Rosco
+  number: '79174'
+  stock:
+  - location: WAC WATER A
+    qty: 2
+    size: A
+
+- make: Rosco
+  number: '79179'
+  stock:
+  - location: WAC FIREWORKS & STARS A
+    qty: 1
+    size: A
 
 - image: rosco-79203.jpg
   make: Rosco
   name: Linear 10
   number: '79203'
   stock:
-  - qty: '2'
+  - location: Tech Crew
+    qty: 2
     size: A
+
+- make: Rosco
+  number: '82700'
+  stock:
+  - location: WAC LOOSE
+    qty: 1
+    size: B
+
+- make: Custom
+  number: Bat
+  stock:
+  - location: WAC ABSTRACT B
+    qty: 1
+    size: B
+
+- make: GAM
+  number: G232
+  stock:
+  - location: WAC FIREWORKS & STARS B
+    qty: 1
+    size: B
+
+- make: GoboPlus
+  number: GP201
+  name: Winter Tree
+  image: goboplus-gp201.jpg
+  stock:
+  - location: WAC TREES A
+    qty: 3
+    size: A
+
+- make: GoboPlus
+  number: GP503
+  name: Alps
+  image: goboplus-gp503.jpg
+  stock:
+  - location: WAC ABSTRACT B
+    qty: 1
+    size: B
 
 - image: null
   make: Custom
   number: WSAF glass
   stock:
-  - qty: '1'
+  - location: Tech Crew
+    qty: 1
     size: B
 
 - image: null
   make: Custom
   number: WSAF splodge
   stock:
-  - qty: '2'
+  - location: Tech Crew
+    qty: 2
+    size: A
+
+- make: DHA
+  number: pointy crescent
+  stock:
+  - location: WAC CRESCENTS & MOONS A
+    qty: 5
     size: A
